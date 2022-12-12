@@ -1,0 +1,46 @@
+#text-input,
+#add-button {
+    height: 10vh;
+
+    font-family: var(--main-font);
+}
+
+#add-button {
+    background-color: white;
+    border-radius: 5px;
+    border-color: var(--notebook-color);
+    width: 5vw;
+
+    font-size: 1.1rem;
+    font-weight: light;
+
+    transition: 0.3s;
+}
+#add-button:hover {
+    transition: 0.3s;
+
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+#text-input {
+    width: 45vw;
+
+    margin-right: 5px;
+
+    padding-left: 10px;
+
+    border-radius: 5px;
+    border-color: var(--notebook-color);
+
+    font-size: 1.3rem;
+}
+
+#component-container {
+    height: 10vh;
+
+    display: flex;
+    column-gap: 5px;
+
+    align-items: center;
+}

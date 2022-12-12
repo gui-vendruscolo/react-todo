@@ -1,0 +1,29 @@
+#header-container {
+    width: 100vw;
+    height: 10vh;
+
+    background-color: var(--alternative-bg-color);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: sticky;
+    top: 0;
+
+    box-shadow: 0 2px 5px;
+}
+#logo-container {
+    width: 5vw;
+    height: 10vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#title {
+    color: var(--alternative-font-color);
+    margin: 0;
+
+    font-family: var(--title-font);
+}

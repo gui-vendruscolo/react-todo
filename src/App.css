@@ -1,0 +1,16 @@
+.App {
+    height: 100vh;
+
+    background-color: var(--bg-color);
+}
+
+#board-container {
+    width: 100vw;
+    min-height: 80vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: var(--bg-color);
+}

@@ -1,0 +1,18 @@
+#footer-container {
+    width: 100vw;
+    height: 10vh;
+
+    background-color: var(--alternative-bg-color);
+
+    display: flex;
+    justify-content: flex-end;
+
+    box-shadow: 0 -1px 3px;
+
+    position: sticky;
+    bottom: 0;
+}
+
+h3 {
+    margin: 0;
+}

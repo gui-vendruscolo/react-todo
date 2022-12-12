@@ -1,0 +1,57 @@
+.task {
+    display: flex;
+
+    height: 7vh;
+
+    align-items: center;
+
+    border-bottom: solid 2px var(--notebook-color);
+}
+
+#task0 {
+    border-top: solid 2px var(--notebook-color);
+}
+
+.status-input {
+    transform: scale(1.4);
+}
+
+.status {
+    display: flex;
+    width: 4vw;
+    justify-content: center;
+}
+.taskName-container {
+    display: flex;
+    width: 40vw;
+    height: auto;
+    align-items: center;
+}
+
+.taskName {
+    font-size: 1.3rem;
+    margin: 0;
+}
+.taskName.true {
+    text-decoration: line-through;
+}
+
+.dateAdded {
+    font-size: 1rem;
+}
+
+.deleteButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 5vw;
+    height: 7vh;
+
+    transition: 0.3s;
+}
+.deleteButton:hover {
+    cursor: pointer;
+    transform: scale(1.3);
+    transition: 0.3s;
+}

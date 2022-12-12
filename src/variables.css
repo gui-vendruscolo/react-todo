@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap");
+
+@font-face {
+    font-family: "gold";
+    src: url(./assets/NatureBeautyPersonalUse-9Y2DK.ttf);
+}
+
+:root {
+    --bg-color: #6b728e;
+    --alternative-bg-color: #404258;
+
+    --alternative-font-color: white;
+
+    --notebook-color: black;
+
+    --main-font: "Roboto", sans-serif;
+
+    --title-font: "gold";
+}
